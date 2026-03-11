@@ -21,7 +21,7 @@ import com.service.OtpService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = {"http://localhost:5173/"})
+@CrossOrigin(origins = {"http://localhost:5173/", "https://quillhubf-2phv.vercel.app/"})
 public class UserController {
 	
 	
